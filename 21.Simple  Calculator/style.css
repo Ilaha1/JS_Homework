@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    width: 500px;
+}
+
+.calc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+
+    width: 100%;
+    background-color: bisque;
+}
+
+#inputCalc {
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 4vh;
+}
+
+.addition,
+.substract,
+.multiply,
+.division {
+    background-color: rgb(238, 228, 228);
+}
+
+.resetBtn {
+    background-color: orangered;
+}
+
+button {
+    width: 200px;
+    height: 4vh;
+}
+
+.value {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#value1,
+#value2 {
+    width: 100px;
+    height: 4vh;
+}
