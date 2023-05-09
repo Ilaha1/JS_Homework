@@ -1,0 +1,63 @@
+{
+  "users": [
+    {
+      "id": "2",
+      "name": "Nishani",
+      "usertype": "Manager",
+      "email": "Nisha@gmail.com"
+    },
+    {
+      "id": "3",
+      "name": "Nishara",
+      "usertype": "Admin",
+      "email": "Nishara@gmail.com"
+    },
+    {
+      "id": "4",
+      "name": "Nimal",
+      "usertype": "Manager",
+      "email": "Nimal@gmail.com"
+    },
+    {
+      "id": "5",
+      "name": "Nilantha",
+      "usertype": "Manager",
+      "email": "Nilanta@gmail.com"
+    },
+    {
+      "id": "6",
+      "name": "Nimal",
+      "usertype": "Manager",
+      "email": "Nimal@gmail.com"
+    },
+    {
+      "id": "7",
+      "name": "Nilantha",
+      "usertype": "Manager",
+      "email": "Nilant@gmail.com"
+    },
+    {
+      "id": "8",
+      "name": "Nimal",
+      "usertype": "Manager",
+      "email": "Nimall@gmail.com"
+    },
+    {
+      "id": "9",
+      "name": "Nilantha",
+      "usertype": "Manager",
+      "email": "Nisha@gmail.com"
+    },
+    {
+      "id": "10",
+      "name": "Nimal",
+      "usertype": "Manager",
+      "email": "Nisha@gmail.com"
+    },
+    {
+      "id": "12",
+      "name": "Nimal",
+      "usertype": "Manager"
+    }
+  ]
+}
