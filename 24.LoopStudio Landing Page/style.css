@@ -170,84 +170,63 @@ nav .menu {
 
 footer {
     background-color: black;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-}
-.footer-icon{
-display: flex;
-    justify-content: center;
+    display: flex;
     align-items: center;
+    justify-content: space-between;
+
+}
+
+.footer1 {
+    display: flex;
     justify-content: space-between;
 }
 
- .loop-text {
-    padding-bottom: 40px;
+.footer2 {
+    display: flex;
+    justify-content: space-between;
 }
 
- .loop-text h3 {
+.icon-a {
+    display: flex;
+    justify-content: end;
+}
+
+.loop-texts {
     color: white;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    cursor: pointer;
-    font-weight: 700;
-}
-.loop-text ul {
-    display: flex;
-    gap: 20px;
+    font-size: 22px;
 }
 
-.loop-text ul li {
-    position: relative;
+.footer2 ul li {
+    color: white;
+
 }
 
- .loop-text ul li a {
+.footer2 ul a {
+    list-style: none;
     text-decoration: none;
-    color: #fff;
 }
 
- .loop-text ul li a:hover::after {
-    content: "";
-    border: 1px solid white;
-    display: block;
-    width: 100%;
-    position: absolute;
-    margin-top: 10px;
-}
-
-footer .footer .footer-icon{
-    gap: 20px;
-}
-
- .footer-icon {
+.end {
+    font-size: 16px;
     display: flex;
-    justify-content: flex-end;
-    gap: 20px;
 }
 
- .footer-icon a {
-    position: relative;
+.loop-texts,
+.footer1 ul li :hover {
+    cursor: pointer;
 }
 
-.footer-icon a i {
-    color: #fff;
-    font-size: 24px;
+.footer1 li :hover {
+    border-bottom: 2px solid white;
+position: relative;
 }
 
-.footer-icon .icon  a i:hover::after {
-    content: "";
-    border: 1px solid #fff;
-    display: block;
-    position: absolute;
-    width: 100%;
-    margin-top: 5px;
+.footer2 ul :hover {
+    border-bottom: 2px solid white;
+position: relative;
 }
 
- .footer .footer-icon p {
-    padding-top: 20px;
-    font-weight: 700;
-    font-size: 15px;
-    color: #808080;}
+
 
 /* responsive */
 
